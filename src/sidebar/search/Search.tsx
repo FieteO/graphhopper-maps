@@ -8,6 +8,7 @@ import RemoveIcon from './minus-circle-solid.svg'
 import AddIcon from './plus-circle-solid.svg'
 import PlainButton from '@/PlainButton'
 import { RoutingProfile } from '@/api/graphhopper'
+import {tr} from '@/translation/Translation'
 
 import AddressInput from '@/sidebar/search/AddressInput'
 import { MarkerComponent } from '@/map/Marker'
@@ -39,8 +40,9 @@ export default function Search({
                 />
             ))}
             <PlainButton
-                onClick={() => Dispatcher.dispatch(new AddPoint(points.length, { lat: 0, lng: 0 }, false))}
                 className={styles.addSearchBox}
+                aria-label={tr('add_waypoint')}
+                onClick={() => Dispatcher.dispatch(new AddPoint(points.length, { lat: 0, lng: 0 }, false))}
             >
                 <AddIcon />
             </PlainButton>

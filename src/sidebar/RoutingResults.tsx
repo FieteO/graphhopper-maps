@@ -9,6 +9,7 @@ import PlainButton from '@/PlainButton'
 import Arrow from '@/sidebar/chevron-down-solid.svg'
 import Instructions from '@/sidebar/instructions/Instructions'
 import { useMediaQuery } from 'react-responsive'
+import {tr} from '@/translation/Translation'
 
 export interface RoutingResultsProps {
     paths: Path[]
@@ -31,22 +32,22 @@ function RoutingResult({ path, isSelected }: { path: Path; isSelected: boolean }
     useEffect(() => setExpanded(isSelected && isExpanded), [isSelected])
 
     return (
-        <div className={styles.resultRow}>
-            <div className={styles.resultSelectableArea} onClick={() => Dispatcher.dispatch(new SetSelectedPath(path))}>
+        <li className={styles.resultRow}>
+            <button className={styles.resultSelectableArea + ' ' + styles.btnInvisible} aria-label='Set as active route' onClick={() => Dispatcher.dispatch(new SetSelectedPath(path))}>
                 <div className={resultSummaryClass}>
                     <div className={styles.resultValues}>
                         <span className={styles.resultMainText}>{milliSecondsToText(path.time)}</span>
                         <span className={styles.resultSecondaryText}>{metersToText(path.distance)}</span>
                     </div>
                     {isSelected && (
-                        <PlainButton className={buttonClass} onClick={() => setExpanded(!isExpanded)}>
+                        <PlainButton className={buttonClass} aria-label={!isExpanded ? tr('expand_directions') : tr('collapse_directions')} onClick={() => setExpanded(!isExpanded)}>
                             <Arrow />
                         </PlainButton>
                     )}
                 </div>
-            </div>
+            </button>
             {isExpanded && <Instructions instructions={path.instructions} />}
-        </div>
+        </li>
     )
 }
 

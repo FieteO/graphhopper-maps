@@ -41,7 +41,10 @@
 "route_request_failed":"Route request failed",
 "current_location":"Current Location",
 "searching_location":"Searching location",
-"searching_location_failed":"Searching location failed"
+"searching_location_failed":"Searching location failed",
+"expand_directions": "Expand directions",
+"collapse_directions": "Collapse directions",
+"add_waypoint": "Add waypoint"
 },
 "ar":{
 "via_hint":"خلال",
@@ -86,7 +89,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "ast":{
 "via_hint":"Pasando per",
@@ -131,7 +137,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "bg":{
 "via_hint":"през",
@@ -176,7 +185,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "bn_BN":{
 "via_hint":"",
@@ -221,7 +233,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "ca":{
 "via_hint":"Passant per",
@@ -266,7 +281,10 @@
 "route_request_failed":"Ha fallat la resolució de la ruta.",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "cs_CZ":{
 "via_hint":"Přes ",
@@ -311,7 +329,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "da_DK":{
 "via_hint":"Via",
@@ -356,7 +377,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "de_DE":{
 "via_hint":"Über",
@@ -401,7 +425,10 @@
 "route_request_failed":"Route konnte nicht berechnet werden",
 "current_location":"Aktueller Standort",
 "searching_location":"Suche Standort",
-"searching_location_failed":"Standortsuche fehlgeschlagen"
+"searching_location_failed":"Standortsuche fehlgeschlagen",
+"expand_directions": "Wegbeschreibung ausklappen",
+"collapse_directions": "Wegbeschreibung einklappen",
+"add_waypoint": "Zwischenziel hinzufügen"
 },
 "el":{
 "via_hint":"Μέσω",
@@ -446,7 +473,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "eo":{
 "via_hint":"Tra",
@@ -491,7 +521,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "es":{
 "via_hint":"Pasando por",
@@ -536,7 +569,10 @@
 "route_request_failed":"Solicitud de ruta fallida",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "fa":{
 "via_hint":"با گذر از",
@@ -581,7 +617,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "fil":{
 "via_hint":"",
@@ -626,7 +665,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "fi":{
 "via_hint":"Reittipiste",
@@ -671,7 +713,10 @@
 "route_request_failed":"Reittipyyntö epäonnistui",
 "current_location":"Nykyinen paikka",
 "searching_location":"Paikkaa haetaan",
-"searching_location_failed":"Paikan haku epäonnistui"
+"searching_location_failed":"Paikan haku epäonnistui",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "fr_FR":{
 "via_hint":"Via",
@@ -716,7 +761,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "fr_CH":{
 "via_hint":"Via",
@@ -761,7 +809,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "gl":{
 "via_hint":"Vía",
@@ -806,7 +857,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "he":{
 "via_hint":"דרך",
@@ -851,7 +905,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "hr_HR":{
 "via_hint":"Preko",
@@ -896,7 +953,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "hsb":{
 "via_hint":"přez",
@@ -941,7 +1001,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "hu_HU":{
 "via_hint":"Ezen keresztül",
@@ -986,7 +1049,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "in_ID":{
 "via_hint":"melalui",
@@ -1031,7 +1097,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "it":{
 "via_hint":"attraverso",
@@ -1076,7 +1145,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "ja":{
 "via_hint":"経由",
@@ -1121,7 +1193,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "ko":{
 "via_hint":"경유",
@@ -1166,7 +1241,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "lt_LT":{
 "via_hint":"Per",
@@ -1211,7 +1289,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "ne":{
 "via_hint":"बाट",
@@ -1256,7 +1337,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "nl":{
 "via_hint":"via",
@@ -1301,7 +1385,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "pl_PL":{
 "via_hint":"Przez",
@@ -1346,7 +1433,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "pt_BR":{
 "via_hint":"Via",
@@ -1391,7 +1481,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "pt_PT":{
 "via_hint":"Por",
@@ -1436,7 +1529,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "ro":{
 "via_hint":"Prin",
@@ -1481,7 +1577,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "ru":{
 "via_hint":"Через",
@@ -1526,7 +1625,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "sk":{
 "via_hint":"Cez",
@@ -1571,7 +1673,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "sl_SI":{
 "via_hint":"Preko",
@@ -1616,7 +1721,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "sr_RS":{
 "via_hint":"Preko",
@@ -1661,7 +1769,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "sv_SE":{
 "via_hint":"Via",
@@ -1706,7 +1817,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "tr":{
 "via_hint":"Yoluyla",
@@ -1751,7 +1865,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "uk":{
 "via_hint":"через",
@@ -1796,7 +1913,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "vi_VN":{
 "via_hint":"Qua",
@@ -1841,7 +1961,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "zh_CN":{
 "via_hint":"途经点",
@@ -1886,7 +2009,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "zh_HK":{
 "via_hint":"途經",
@@ -1931,7 +2057,10 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": "",
+"add_waypoint": ""
 },
 "zh_TW":{
 "via_hint":"途經",
@@ -1976,5 +2105,7 @@
 "route_request_failed":"",
 "current_location":"",
 "searching_location":"",
-"searching_location_failed":""
+"searching_location_failed":"",
+"expand_directions": "",
+"collapse_directions": ""
 }}

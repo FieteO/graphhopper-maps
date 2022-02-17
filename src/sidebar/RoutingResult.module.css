@@ -103,3 +103,15 @@ This is not a very nice duplication but I have to stop now...
         opacity: 1;
     }
 }
+
+/*
+remove button styling
+*/
+.btnInvisible {
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
