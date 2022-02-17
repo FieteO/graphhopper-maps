@@ -93,6 +93,7 @@ const SearchBox = ({
             </div>
             {deletable && (
                 <PlainButton
+                    aria-label={tr('remove_waypoint')}
                     onClick={() => Dispatcher.dispatch(new RemovePoint(point))}
                     className={styles.removeSearchBox}
                 >
