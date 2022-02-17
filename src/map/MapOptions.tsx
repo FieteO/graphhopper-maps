@@ -5,6 +5,7 @@ import Dispatcher from '@/stores/Dispatcher'
 import { SelectMapStyle } from '@/actions/Actions'
 import PlainButton from '@/PlainButton'
 import LayerImg from './layer-group-solid.svg'
+import { tr } from '@/translation/Translation'
 
 export default function (props: MapOptionsStoreState) {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +18,7 @@ export default function (props: MapOptionsStoreState) {
             {isOpen ? (
                 <Options storeState={props} notifyChanged={() => setIsOpen(false)} />
             ) : (
-                <PlainButton className={styles.layerButton} onClick={() => setIsOpen(true)}>
+                <PlainButton className={styles.layerButton} aria-label={tr('open_layers_menu')} onClick={() => setIsOpen(true)}>
                     <LayerImg />
                 </PlainButton>
             )}

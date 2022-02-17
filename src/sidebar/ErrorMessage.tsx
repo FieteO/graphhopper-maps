@@ -5,6 +5,7 @@ import Dispatcher from '@/stores/Dispatcher'
 import { DismissLastError } from '@/actions/Actions'
 import Cross from '@/sidebar/times-solid.svg'
 import React from 'react'
+import { tr } from '@/translation/Translation'
 
 export default function ErrorMessage({ error }: { error: ErrorStoreState }) {
     return (
@@ -12,6 +13,7 @@ export default function ErrorMessage({ error }: { error: ErrorStoreState }) {
             <span className={styles.errorMessage}>{error.lastError}</span>
             <PlainButton
                 className={styles.errorMessageCloseBtn}
+                aria-label={tr('close')}
                 onClick={() => Dispatcher.dispatch(new DismissLastError())}
             >
                 <Cross />
